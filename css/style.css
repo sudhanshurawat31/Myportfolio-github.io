@@ -243,7 +243,6 @@ h2 {
     margin: 15px;
 }
 
-
 .wrap-1 .social-link {
     display: flex;
     flex-direction: row;
@@ -266,6 +265,7 @@ h2 {
     transform: rotate(360deg);
     border: 2px solid #f2eeef;
 }
+
 .wrap-2 {
     background: linear-gradient(to bottom, #4fc1d0 30%, #e9e1e7 42%) no-repeat #416032;
 }
@@ -276,7 +276,8 @@ h2 {
 
 .wrap-2 img {
     width: 100%;
-    border: 3px dashed #1d3564;
+    border: 15px inset #1d3564;
+    box-shadow: 6px 0px 15px black;
 }
 
 .wrap-2 .about {
@@ -308,18 +309,20 @@ h2 {
 }
 
 .wrap-3 img {
-    width: 300px;
-    height: 300px;
-    margin: 24px 50px 25px 50px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 40px auto;
 }
 
 .wrap-3 img:hover {
     box-shadow: -2px -5px 20px 1px;
-    transition: 2s;
+    transition: 1s;
     border: none;
     border-radius: 15%;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     transform: rotate(360deg);
+    border: 9px outset #f1f1f0;
 }
 
 .wrap-4 {
