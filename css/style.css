@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
  :root {
@@ -138,6 +139,7 @@ button {
     font-family: inherit;
     margin: 35px 65px 35px 67px;
     border: 3px solid black;
+    border-radius: 10px;
 }
 
 button:hover {
@@ -240,7 +242,7 @@ h2 {
 }
 
 .wrap-1 span {
-    margin: 15px;
+    padding: 15px;
 }
 
 .wrap-1 .social-link {
@@ -304,25 +306,28 @@ h2 {
 }
 
 .wrap-3 h2 {
-    margin: 50px;
+    margin: 1rem;
     color: #000;
 }
 
 .wrap-3 img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     display: block;
-    margin: 40px auto;
+    margin: 2.5rem auto;
 }
 
 .wrap-3 img:hover {
     box-shadow: -2px -5px 20px 1px;
-    transition: 1s;
+    transition: .2s;
     border: none;
     border-radius: 15%;
-    /* border: 2px solid yellow; */
-    transform: rotate(360deg);
-    border: 9px outset #f1f1f0;
+    border: 1px solid #2e2c31;
+    transform: scale(1.5);
+}
+
+.wrap-3 p {
+    padding: 10px;
 }
 
 .wrap-4 {
@@ -414,6 +419,7 @@ h2 {
 .wrap-6 p {
     margin: 13px 0 10px 3px;
     font-weight: bold;
+    padding: 10px;
 }
 
 .wrap-6 input {
@@ -422,6 +428,7 @@ h2 {
     margin: 20px 0 10px 0;
     padding: 5px;
     border-radius: 7px;
+    outline: none;
 }
 
 .wrap-6 button {
@@ -442,13 +449,15 @@ h2 {
     margin: 20px 0 4px 0px;
     padding: 5px;
     border-radius: 7px;
+    outline: none;
 }
 
 .wrap-7 {
     font-size: 0.9rem;
     position: relative;
     background: #222;
-    color: #fff
+    color: #fff;
+    padding: 2rem;
 }
 
 footer ul li {
@@ -480,8 +489,9 @@ footer ul li a {
 }
 
 .wrap-7 img {
-    width: 100%;
-    margin: 30px auto;
+    width: 70%;
+    display: flex;
+    margin: 10px auto;
 }
 
 .gmap_canvas {
@@ -495,4 +505,15 @@ footer ul li a {
 .gmap_iframe {
     width: 691px!important;
     height: 258px!important;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        display: block;
+        font-size: 30px;
+        text-align: center;
+    }
+    nav ul li {
+        display: none;
+    }
 }
