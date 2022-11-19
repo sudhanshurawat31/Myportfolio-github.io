@@ -133,16 +133,14 @@ button {
 .btn {
     width: 150px;
     height: 50px;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 16px;
     font-family: inherit;
     margin: 35px 65px 35px 67px;
-    border: 3px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 button:hover {
-    background-color: #1d3564;
+    background-color: #0d33b1;
     color: white;
     border: none;
 }
@@ -271,7 +269,6 @@ h2 {
     transform: rotate(360deg);
     border: 2px solid #f2eeef;
 }
-
 .wrap-2 {
     background: linear-gradient(to bottom, #4fc1d0 30%, #e9e1e7 42%) no-repeat #416032;
 }
@@ -380,10 +377,10 @@ h2 {
     margin: 4px;
 }
 
-.wrap-4 p span:hover {
+.wrap-4 .service:hover span {
     transform: rotate(360deg);
     transition: 1s;
-    color: yellow;
+    color: #ff0a0a;
 }
 
 .wrap-5 {
@@ -451,20 +448,19 @@ h2 {
 }
 
 .wrap-6 button {
-    background-color: #ca0d0d;
+    background-color: #0d33b1;
     color: white;
     font-size: 20px;
-    font-weight: bold;
     height: 50px;
     width: 100%;
     margin: 15px 0 15px 0;
-    border-radius: 7px;
+    border-radius: 25px;
     border: none;
 }
 
 .wrap-6 textarea {
     width: 100%;
-    height: 80px;
+    height: 235px;
     margin: 20px 0 4px 0px;
     padding: 5px;
     border-radius: 7px;
@@ -528,21 +524,21 @@ footer ul li a {
 }
 
 .top {
-    height: 50px;
+    height: 60px;
     position: fixed;
     right: 0;
     bottom: 10px;
     right: 10px;
     width: 4rem;
     background-color: transparent;
-    border: 1px solid red;
-    border-radius: 10px;
+    border: 1px solid #121f8b;
+    border-radius: 50px;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 .top a {
-    color: #d16914;
+    color: #121f8b;
 }
 
 .top:hover {
@@ -553,18 +549,6 @@ footer ul li a {
 
 /* meadia query start */
 
-@media only screen and (max-width: 1500px) {
-    body {
-        background-color: lightblue;
-    }
-
-    h1 {
-        display: block;
-        font-size: 30px;
-        text-align: center;
-    }
-
-}
 
 /* ================================= */
 @media only screen and (max-width: 1400px) {}
@@ -747,6 +731,10 @@ footer ul li a {
 
 /* ================================= */
 @media only screen and (max-width: 600px) {
+    .container {
+        max-width: 540px;
+    }
+
     nav ul li {
         display: none;
     }
@@ -807,9 +795,10 @@ footer ul li a {
 
 /* ================================= */
 @media only screen and (max-width: 320px) {
-    .wrap-1 span{
+    .wrap-1 span {
         display: none;
     }
+
     .wrap-1 p.my {
         width: 150px;
         font-size: 30px;
