@@ -789,11 +789,8 @@ footer ul li a {
 }
 
 /* ================================= */
-@media only screen and (max-width: 567px) {}
-
-/* ================================= */
-@media only screen and (max-width: 400px) {
-    .top {
+@media only screen and (max-width: 567px) {
+     .top {
     height: 36px;
     position: fixed;
     right: 0;
@@ -806,6 +803,11 @@ footer ul li a {
     text-align: center;
     padding: 8px;
 }
+}
+
+/* ================================= */
+@media only screen and (max-width: 400px) {
+   
 
 /* ================================= */
 @media only screen and (max-width: 320px) {
