@@ -525,26 +525,26 @@ footer ul li a {
 }
 
 .top {
-    height: 60px;
+    height: 42px;
     position: fixed;
     right: 0;
-    bottom: 10px;
-    right: 10px;
-    width: 4rem;
-    background-color: transparent;
-    border: 1px solid #121f8b;
-    border-radius: 50px;
+    bottom: 5px;
+    right: 5px;
+    width: 3rem;
+    background-color:transparent;
+    border: 2px solid #f30909;
+    border-radius: 5px;
     text-align: center;
-    padding: 20px;
+    padding: 12px;
 }
 
 .top a {
-    color: #121f8b;
+    color: hsl(0, 98%, 48%);
 }
 
 .top:hover {
-    background-color: black;
     border: none;
+    background-color: rgb(25, 0, 255);
 }
 
 
