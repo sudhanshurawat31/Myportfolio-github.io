@@ -170,6 +170,9 @@ h2 {
 .wrap span {
     color: white;
 }
+.wrap nav span{
+    visibility: hidden;
+}
 
 .wrap header h1:hover {
     text-shadow: 5px -3px 20px;
@@ -651,6 +654,10 @@ footer ul li a {
 
 /* ================================= */
 @media only screen and (max-width: 768px) {
+    
+    .wrap nav span{
+        visibility: visible;
+    }
     nav ul li {
         display: none;
     }
