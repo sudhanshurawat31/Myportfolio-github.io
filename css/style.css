@@ -792,7 +792,20 @@ footer ul li a {
 @media only screen and (max-width: 567px) {}
 
 /* ================================= */
-@media only screen and (max-width: 400px) {}
+@media only screen and (max-width: 400px) {
+    .top {
+    height: 36px;
+    position: fixed;
+    right: 0;
+    bottom: 4px;
+    right: 0;
+    width: 3rem;
+    background-color: transparent;
+    border: 3px solid #f30909;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+}
 
 /* ================================= */
 @media only screen and (max-width: 320px) {
