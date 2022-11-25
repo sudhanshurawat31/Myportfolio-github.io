@@ -764,10 +764,11 @@ footer ul li a {
     .wrap-1 p.my {
         width: 178px;
         font-size: 36px;
+        margin-left: -5px;
     }
 
     .wrap-1 h4 {
-        font-size: 36px;
+        font-size: 35px;
     }
 
     .wrap-1 p.designation {
@@ -808,19 +809,6 @@ footer ul li a {
 
 /* ================================= */
 @media only screen and (max-width: 567px) {
-     .top {
-    height: 36px;
-    position: fixed;
-    right: 0;
-    bottom: 4px;
-    right: 0;
-    width: 3rem;
-    background-color: transparent;
-    border: 3px solid #f30909;
-    border-radius: 10px;
-    text-align: center;
-    padding: 8px;
-}
 .wrap-5 .col-4 {
         flex: 1 0 50%;
         max-width: 50%;
