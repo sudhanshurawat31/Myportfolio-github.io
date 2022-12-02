@@ -548,13 +548,13 @@ footer ul li a {
     position: fixed;
     right: 0;
     bottom: 6px;
-    right: 2px;
+    right: 6px;
     width: 46px;
     background-color: #472c74;
     border: none;
     border-radius: 6px;
     text-align: center;
-    padding: 9px
+    padding: 10px
 }
 .wrap-7 i{
     color: white;
