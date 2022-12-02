@@ -544,29 +544,21 @@ footer ul li a {
 }
 
 .top {
-    height: 42px;
+    height: 40px;
     position: fixed;
     right: 0;
-    bottom: 5px;
-    right: 5px;
-    width: 3rem;
-    background-color:transparent;
-    border: 2px solid #f30909;
-    border-radius: 5px;
-    text-align: center;
-    padding: 12px;
-}
-
-.top a {
-    color: hsl(0, 98%, 48%);
-}
-
-.top:hover {
+    bottom: 6px;
+    right: 2px;
+    width: 46px;
+    background-color: #472c74;
     border: none;
-    background-color: rgb(25, 0, 255);
+    border-radius: 6px;
+    text-align: center;
+    padding: 9px
 }
-
-
+.wrap-7 i{
+    color: white;
+}
 /* meadia query start */
 
 
