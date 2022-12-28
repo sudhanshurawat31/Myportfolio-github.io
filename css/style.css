@@ -366,7 +366,7 @@ h2 {
 
 .service:hover {
     background: #a275e04d;
-    transition: 0.5s;
+    transition: 1s;
     cursor: pointer;
     transform: translateY(-25px);
 }
@@ -388,7 +388,7 @@ h2 {
 .wrap-4 .service:hover span {
     transform: rotate(360deg);
     transition: 1s;
-    color: #ff0a0a;
+    color:blue;
 }
 
 .wrap-5 {
