@@ -326,7 +326,7 @@ h2 {
 
 .wrap-3 img:hover {
     box-shadow: -2px -5px 20px 1px;
-    transition: .2s;
+    transition: all 1s;
     border: none;
     border-radius: 15%;
     border: 1px solid #2e2c31;
