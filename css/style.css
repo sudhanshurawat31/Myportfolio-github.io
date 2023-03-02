@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -169,7 +170,8 @@ h2 {
 .wrap span {
     color: white;
 }
-.wrap nav span{
+
+.wrap nav span {
     visibility: hidden;
 }
 
@@ -220,12 +222,12 @@ h2 {
     width: 300px;
     font-size: 60px;
     margin-top: 3rem;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .wrap-1 p.designation {
     font-size: 60px;
-    font-weight:bold;
+    font-weight: bold;
 
 }
 
@@ -274,6 +276,7 @@ h2 {
     transform: rotate(360deg);
     border: 2px solid #f2eeef;
 }
+
 .wrap-2 {
     background: linear-gradient(to bottom, #4fc1d0 30%, #e9e1e7 42%) no-repeat #416032;
 }
@@ -321,19 +324,23 @@ h2 {
     height: 100px;
     display: block;
     margin: 2.5rem auto;
+    border-radius: 15%;
 }
 
 .wrap-3 img:hover {
-    box-shadow: -2px -5px 20px 1px;
-    transition: all 1s;
+    /* box-shadow: -2px -5px 20px 1px; */
+    transition: all .8s;
     border: none;
-    border-radius: 15%;
+    
     border: 1px solid #2e2c31;
     transform: scale(1.5);
+    transition-timing-function: ease-in-out;
 }
 
 .wrap-3 p {
     padding: 10px;
+    color: #0d33b1;
+    font-size: 20px;
 }
 
 .wrap-4 {
@@ -359,7 +366,7 @@ h2 {
     padding: 20px;
     border-radius: 4px;
     color: rgb(20, 19, 19);
-    background-color:#dbe8f1;
+    background-color: #dbe8f1;
     box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 10.3px 17.9px rgb(0 0 0 / 7%), 0 20.8px 33.4px rgb(0 0 0 / 9%);
 }
 
@@ -387,7 +394,7 @@ h2 {
 .wrap-4 .service:hover span {
     transform: rotate(360deg);
     transition: 1s;
-    color:blue;
+    color: blue;
 }
 
 .wrap-5 {
@@ -395,19 +402,26 @@ h2 {
 
 }
 
+.project {
+    overflow: hidden;
+    margin: 7px auto;
+    /* background-color: #fdf9f9; */
+}
+
 .wrap-5 img {
     display: flex;
-    margin: 7px auto;
     width: 100%;
-    filter: grayscale(1);
-    border: 2px solid black;
-}
-.wrap-5 img:hover{
-     filter: none;
-     transform: scale(1.05);
-    transition: 1s;
+    border: 5px solid #1e6e3f;
+    transition: 0.5s all ease-in-out;
 
 }
+
+.wrap-5 img:hover {
+    filter: grayscale(1.5);
+    transform: scale(1.1);
+
+}
+
 .wrap-5 a {
     color: #000;
     border: 1px solid black;
@@ -417,19 +431,23 @@ h2 {
     display: inline-block;
     margin: 15px auto;
     text-align: center;
-    border-radius:12px;
+    border-radius: 12px;
 }
-.wrap-5 a:hover{
+
+.wrap-5 a:hover {
     box-shadow: 3px 2px 3px;
     font-weight: bold;
     background-color: black;
     color: white;
+    transition: 0.5s all ease-in-out;
 
 }
-.link{
+
+.link {
     display: inline-block;
     color: blue;
 }
+
 .wrap-6 {
     background: linear-gradient(to bottom, #472c74 0%, #1fdcb7 100%) no-repeat #a10fd5;
     color: #f0f2e5;
@@ -437,7 +455,7 @@ h2 {
 
 .wrap-6 h2 {
     margin: 50px 0px 4px 11px;
-    color:#fbfbfff5;
+    color: #fbfbfff5;
 }
 
 .wrap-6 .red {
@@ -534,6 +552,7 @@ footer ul li a {
 .wrap-7 span {
     color: white;
 }
+
 .wrap-7 img {
     width: 70%;
     display: flex;
@@ -566,9 +585,11 @@ footer ul li a {
     text-align: center;
     padding: 10px
 }
-.wrap-7 i{
+
+.wrap-7 i {
     color: white;
 }
+
 /* meadia query start */
 
 
@@ -645,34 +666,35 @@ footer ul li a {
     nav ul li {
         display: none;
     }
+}
+
 .wrap-5 a {
-        width: 100%;
-    }
-    .col-6 .btn {
-        width: 100%;
-        margin: 9px;
-        background: transparent;
-        border: 1px solid green;
-        color: blue;
-        font-weight: 500;
-    }
-    .wrap-5 i{
-        display: none;
-    }
-    .link{
-        display: block;
-        text-align: center;
-    }
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    margin: 9px;
+    background: transparent;
+    border: 1px solid green;
+    color: blue;
+    font-weight: 500;
+}
+
+.wrap-5 i {
+    display: none;
+}
+
+.link {
+    display: block;
+    text-align: center;
 }
 
 /* ================================= */
 @media only screen and (max-width: 768px) {
-    
-    .wrap nav span{
+
+    .wrap nav span {
         visibility: visible;
-    }
-    nav ul li {
-        display: none;
     }
 
     .wrap-1 h4 {
@@ -735,9 +757,11 @@ footer ul li a {
         font-size: 16px;
         line-height: 32px;
     }
-.wrap-5 a {
+
+    .wrap-5 a {
         width: 100%;
     }
+
     .wrap-6 h4 {
         font-size: 16px;
         display: flex;
@@ -803,9 +827,11 @@ footer ul li a {
         line-height: 32px;
         font-size: 16px;
     }
-.wrap-5 a {
+
+    .wrap-5 a {
         width: 100%;
     }
+
     .wrap-6 h4 {
         line-height: 32px;
     }
@@ -828,10 +854,11 @@ footer ul li a {
 
 /* ================================= */
 @media only screen and (max-width: 567px) {
-.wrap-5 .col-4 {
+    .wrap-5 .col-4 {
         flex: 1 0 50%;
         max-width: 50%;
     }
+
     .wrap-5 a {
         width: 100%;
     }
@@ -839,15 +866,16 @@ footer ul li a {
 
 /* ================================= */
 @media only screen and (max-width: 420px) {
-    .wrap-5 h2{
+    .wrap-5 h2 {
         font-size: 30px;
     }
+
     .wrap-5 a {
         width: 100%;
     }
 }
 
-   
+
 
 /* ================================= */
 @media only screen and (max-width: 320px) {
@@ -970,4 +998,31 @@ footer ul li a {
         font-size: 18px;
         text-align: center;
     }
+}
+
+footer img {
+    --g: 8px;
+    /* the gap */
+    --b: 16px;
+    /* border thickness*/
+    --c: #97068b;
+    /* the color */
+
+
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg, var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg, var(--_c)) repeat-y;
+    background:
+        var(--_g1) var(--_p, 25%) 0, var(--_g2) 0 var(--_p, 125%),
+        var(--_g1) var(--_p, 125%) 100%, var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b), var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+}
+
+footer img:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
 }
