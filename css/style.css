@@ -740,6 +740,8 @@ footer ul li a {
 
     .wrap-3 img {
         margin: 1.5rem auto;
+        height: 50px;
+        width: 50px;
     }
 
     .sm {
