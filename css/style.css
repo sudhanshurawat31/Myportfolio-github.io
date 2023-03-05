@@ -366,12 +366,13 @@ h2 {
     padding: 20px;
     border-radius: 4px;
     color: rgb(20, 19, 19);
-    background-color: #dbe8f1;
+    background: linear-gradient(to bottom right, #68d3f7 0%, #6ddda5 100%);
+    transition: all 1s;
     box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 10.3px 17.9px rgb(0 0 0 / 7%), 0 20.8px 33.4px rgb(0 0 0 / 9%);
 }
 
 .service:hover {
-    background: #a275e04d;
+    background: linear-gradient(to bottom left, #33ccff 0%, #ffcccc 100%);
     transition: 1s;
     cursor: pointer;
     transform: translateY(-25px);
