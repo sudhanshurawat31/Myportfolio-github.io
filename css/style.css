@@ -266,15 +266,17 @@ h2 {
     border: 2px solid white;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 2s ease;
+    -webkit-transition: all 1s ease;
 }
 
-.wrap-1 .social-link a span:hover {
-    color: #06a2ef;
-    background-color: #f2eeef;
+.wrap-1 .social-link  span:hover {
+    color: #000000;
+    /* background-color: #f2eeef; */
     border-radius: 50%;
     transition: .5s;
     transform: rotate(360deg);
-    border: 2px solid #f2eeef;
+    border: 2px solid #1d1c1c;
 }
 
 .wrap-2 {
